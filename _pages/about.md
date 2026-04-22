@@ -16,8 +16,8 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
-戴林蕙，1997年9月，湖南常德人。于2024年7月在北京大学计算机学院取得博士学位，师从刘宏教授（主页：北京大学智能机器人开放实验室 (pkusz.edu.cn)），团队隶属于北京大学跨媒体通用人工智能全国重点实验室、北京大学智能机器人开放实验室。目前，我的研究团队隶属于自动目标识别（ATR）国防科技重点实验室智能信息处理分室、广东省智能信息处理重点实验室。
+# About Me
+  戴林蕙，1997年9月，湖南常德人。于2024年7月在北京大学计算机学院取得博士学位，师从刘宏教授（主页：北京大学智能机器人开放实验室 (pkusz.edu.cn)），团队隶属于北京大学跨媒体通用人工智能全国重点实验室、北京大学智能机器人开放实验室。目前，我的研究团队隶属于自动目标识别（ATR）国防科技重点实验室智能信息处理分室、广东省智能信息处理重点实验室。
  <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
 我的研究领域包括：
