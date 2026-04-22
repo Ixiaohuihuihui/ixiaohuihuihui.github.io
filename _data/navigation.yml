@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "简介"
+  - title: "About Me"
     url: "/zh-cn/#about-me"
 
-  - title: "学历"
+  - title: "Call For Members"
     url: "/zh-cn/#-xl"
 
   - title: "论文专利"
@@ -15,5 +15,5 @@ main:
   - title: "学术会议"
     url: "/zh-cn/#-xshy"
 
-  - title: "工作实习"
+  - title: "实验室成员"
     url: "/zh-cn/#-gzsx"
