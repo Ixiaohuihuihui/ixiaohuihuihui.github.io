@@ -28,7 +28,7 @@ redirect_from:
 
 
 
-<span class='anchor' id='-xl'></span>
+<span class='anchor' id='-cfm'></span>
 
 # 📣📣 Call For Members 📣📣
 期待招收对人工智能、机器人技术、计算机视觉等领域充满热情的优秀保研/考研学生。欢迎编程能力较好、有深度学习实践经验、程序设计竞赛或者科研经历的同学与我联系。热烈欢迎感兴趣的本科生咨询，进组学习和交流。
@@ -76,7 +76,7 @@ redirect_from:
 
 [3]本科期间获得国家奖学金、校长奖学金（每年全校毕业生仅有10人获得）
 
-<span class='anchor' id='-xshy'></span>
+<span class='anchor' id='-kyxm'></span>
 
 # 🏛️ 科研项目
 [1] 深圳大学青年教师科研启动基金， “面向复杂场景的目标检测方法研究”，主持，2024-2027。
