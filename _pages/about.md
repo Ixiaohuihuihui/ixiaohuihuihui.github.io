@@ -93,7 +93,46 @@ redirect_from:
 
 # 🧑‍🎓 课题组成员
 
+<div class="team-grid">
+  <div class="team-card">
+    <div class="team-avatar" style="background-color: #6c757d;">杨晖</div>
+    <div class="team-info">
+      <div class="team-name">杨晖</div>
+      <div class="team-title">研二</div>
+    </div>
+  </div>
+  <div class="team-card">
+    <div class="team-avatar" style="background-color: #6c757d;">刘立康</div>
+    <div class="team-info">
+      <div class="team-name">刘立康</div>
+      <div class="team-title">研二</div>
+    </div>
+  </div>
+  <div class="team-card">
+    <div class="team-avatar" style="background-color: #6c757d;">王华彬</div>
+    <div class="team-info">
+      <div class="team-name">王华彬</div>
+      <div class="team-title">研二</div>
+    </div>
+  </div>
+  <div class="team-card">
+    <div class="team-avatar" style="background-color: #6c757d;">林中岚</div>
+    <div class="team-info">
+      <div class="team-name">林中岚</div>
+      <div class="team-title">研一</div>
+    </div>
+  </div>
+  <div class="team-card">
+    <div class="team-avatar" style="background-color: #6c757d;">傅欢</div>
+    <div class="team-info">
+      <div class="team-name">傅欢</div>
+      <div class="team-title">研一</div>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='-ktzrc'></span>
+
 # 🥳 课题组日常
 
 <span class='anchor' id='-ktzwf'></span>
