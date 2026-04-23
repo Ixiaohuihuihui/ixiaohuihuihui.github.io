@@ -353,7 +353,7 @@ author_profile: false
 
 <div id="section-3-3" class="workflow-section" style="display:none;">
 <h2>📦 软件安装 - Oh-my-zsh</h2>
-<p>（请在此处填写内容）</p>
+<p>建议联系管理员安装</p>
 </div>
 
 <div id="section-3-4" class="workflow-section" style="display:none;">
