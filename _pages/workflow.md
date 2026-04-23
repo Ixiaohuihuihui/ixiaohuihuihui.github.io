@@ -407,7 +407,36 @@ author_profile: false
 
 <div id="section-3-5" class="workflow-section" style="display:none;">
 <h2>📦 软件安装 - Anaconda</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">Anaconda 是 Python 环境管理工具，用于创建独立虚拟环境，避免依赖冲突。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">一、下载</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">一般我们在 MobaXterm 里使用 Anaconda 管理我们之后项目的环境，在 MobaXterm 里下载 Anaconda 参考如下：</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;"><a href="https://zhuanlan.zhihu.com/p/562859394" target="_blank">https://zhuanlan.zhihu.com/p/562859394</a></p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">二、虚拟环境的创建</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">一般一个项目需要创建一个虚拟环境，在命令行输入指令：</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.3rem;padding-left:1rem;">conda create --name myenv python=3.8</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">myenv 改为自己的环境名，python 版本自行选择更改。</p>
+<img src="/images-wf/Anaconda1.png" alt="创建环境" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/Anaconda2.png" alt="创建环境" style="border-radius:8px;margin-bottom:1rem;">
+
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">输入 y 回车。</p>
+<img src="/images-wf/Anaconda3.png" alt="确认创建" style="border-radius:8px;margin-bottom:1rem;">
+
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">这样我们就创建好一个名叫 demo 的环境了。</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">怎样查看你创建的环境：输入 conda env list。</p>
+<img src="/images-wf/Anaconda4.png" alt="查看环境" style="border-radius:8px;margin-bottom:1rem;">
+
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">激活环境：conda activate demo。</p>
+<img src="/images-wf/Anaconda5.png" alt="激活环境" style="border-radius:8px;margin-bottom:1rem;">
+
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">这样我们就进入创建的 demo 环境了。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">三、PyTorch的下载</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">PyTorch 官网：<a href="https://pytorch.org/" target="_blank">https://pytorch.org/</a></p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">根据自己项目要求和实验室服务器版本选择 torch 和 CUDA 版本，以前的 torch 版本点击左下角进行选择。选择好后复制粘贴命令回车即可。</p>
+<img src="/images-wf/Anaconda6.png" alt="PyTorch下载" style="border-radius:8px;margin-bottom:1rem;">
 </div>
 
 <div id="section-3-6" class="workflow-section" style="display:none;">
