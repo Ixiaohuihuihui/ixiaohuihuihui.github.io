@@ -124,6 +124,72 @@ redirect_from:
     <div class="member-name-cn">傅欢</div>
     <div class="member-title">研一</div>
   </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Lei Liu">
+    <div class="member-name-en">Lei Liu</div>
+    <div class="member-name-cn">刘雷</div>
+    <div class="member-title">大三</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Zijian Feng">
+    <div class="member-name-en">Zijian Feng</div>
+    <div class="member-name-cn">冯子健</div>
+    <div class="member-title">大二</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Huanxin Xu">
+    <div class="member-name-en">Huanxin Xu</div>
+    <div class="member-name-cn">许焕新</div>
+    <div class="member-title">大三</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Ran Chen">
+    <div class="member-name-en">Ran Chen</div>
+    <div class="member-name-cn">陈燃</div>
+    <div class="member-title">大三</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Weiyang Zeng">
+    <div class="member-name-en">Weiyang Zeng</div>
+    <div class="member-name-cn">曾维洋</div>
+    <div class="member-title">大三</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Weijie Cao">
+    <div class="member-name-en">Weijie Cao</div>
+    <div class="member-name-cn">曹炜杰</div>
+    <div class="member-title">大四</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Rundong Zhu">
+    <div class="member-name-en">Rundong Zhu</div>
+    <div class="member-name-cn">诸润东</div>
+    <div class="member-title">大二</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Shuyi Lin">
+    <div class="member-name-en">Shuyi Lin</div>
+    <div class="member-name-cn">林舒仪</div>
+    <div class="member-title">大二</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Canxuan Fang">
+    <div class="member-name-en">Canxuan Fang</div>
+    <div class="member-name-cn">方灿轩</div>
+    <div class="member-title">大二</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Junjie Chen">
+    <div class="member-name-en">Junjie Chen</div>
+    <div class="member-name-cn">陈俊杰</div>
+    <div class="member-title">大二</div>
+  </div>
+  <div class="member-card">
+    <img src="/images/default.png" class="member-avatar" alt="Junsong Wu">
+    <div class="member-name-en">Junsong Wu</div>
+    <div class="member-name-cn">吴俊嵩</div>
+    <div class="member-title">大二</div>
+  </div>
 </div>
 
 <span class='anchor' id='-ktzrc'></span>
