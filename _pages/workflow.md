@@ -419,7 +419,7 @@ author_profile: false
 
 <div class="workflow-note">
 <span class="workflow-note-icon">💡</span>
-<p><b>💡 温馨提示：</b>遇到问题请随时联系导师或师兄师姐，我们是一个大家庭！</p>
+<p><b>温馨提示：</b>遇到任何问题欢迎随时与导师或师兄师姐沟通，我们是一个大家庭！</p>
 </div>
 
 <script>
