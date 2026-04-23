@@ -325,11 +325,12 @@ author_profile: false
 <p>（请在此处填写内容）</p>
 </div>
 
+</div>
+</div>
+
 <div class="workflow-note">
 <span class="workflow-note-icon">💡</span>
 <p><b>温馨提示：</b>遇到任何问题欢迎随时与导师或师兄师姐沟通，我们是一个大家庭！</p>
-</div>
-</div>
 </div>
 
 <script>
