@@ -198,27 +198,34 @@ redirect_from:
 
 ## 2026.03.31 学术沙龙
 
-![活动照片1](images\20260331学术沙龙1.jpg)
-![活动照片2](images\20251130学术沙龙2.jpg)
-![活动照片3](images\20251130学术沙龙3.jpg)
+<div class="activity-photos">
+![活动照片1](images/20260331学术沙龙1.jpg)
+![活动照片2](images/20251130学术沙龙2.jpg)
+![活动照片3](images/20251130学术沙龙3.jpg)
+</div>
 
 ## 2026.01.30 学术沙龙
 
-![活动照片1](images\20251130学术沙龙1.jpg)
-![活动照片2](images\20251130学术沙龙2.jpg)
-![活动照片3](images\20251130学术沙龙3.jpg)
+<div class="activity-photos">
+![活动照片1](images/20251130学术沙龙1.jpg)
+![活动照片2](images/20251130学术沙龙2.jpg)
+![活动照片3](images/20251130学术沙龙3.jpg)
+</div>
 
 ## 2026.01.27 年终总结&年饭
 
-![活动照片1](images\20251130年终总结&年饭1.jpg)
-![活动照片2](images\20251130年终总结&年饭2.jpg)
-![活动照片3](images\20251130年终总结&年饭3.jpg)
+<div class="activity-photos">
+![活动照片1](images/20251130年终总结&年饭1.jpg)
+![活动照片2](images/20251130年终总结&年饭2.jpg)
+![活动照片3](images/20251130年终总结&年饭3.jpg)
+</div>
 
 ## 2025.11.30 迎新团建
-
+<div class="activity-photos">
 ![活动照片1](images\20251130迎新团建1.jpg)
 ![活动照片2](images\20251130迎新团建2.jpg)
 ![活动照片3](images\20251130迎新团建3.jpg)
+</div>
 
 <span class='anchor' id='-ktzwf'></span>
 # 📋 课题组WorkFlow
