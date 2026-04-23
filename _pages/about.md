@@ -196,9 +196,11 @@ redirect_from:
 
 # 🥳 课题组日常
 
-## 2025.11.30 团建活动
+## 2025.11.30 迎新团建
 
-![活动照片1](images\20251130迎新团建.jpg)
+<div class="activity-photos">
+![活动照片1](images/20251130迎新团建.jpg)
+</div>
 
 
 <span class='anchor' id='-ktzwf'></span>
