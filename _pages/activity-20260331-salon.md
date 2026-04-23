@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-no-nav
 title: "2026.03.31 学术沙龙"
 permalink: /activity/20260331-salon/
 author_profile: false
