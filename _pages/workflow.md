@@ -483,7 +483,7 @@ author_profile: false
 
 <h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">使用流程</h3>
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">这里在 Cursor 举例。</p>
-<img src="/images-wf/claudecode1.png" alt="Claude Code使用" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/claudecode1.png" alt="Claude Code使用" style="border-radius:8px;margin-bottom:1rem;max-width:80%;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">在模型里面选择 Opus 或 Codex 都可以。</p>
 </div>
