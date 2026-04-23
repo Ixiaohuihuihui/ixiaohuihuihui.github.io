@@ -478,7 +478,14 @@ author_profile: false
 
 <div id="section-3-7" class="workflow-section" style="display:none;">
 <h2>📦 软件安装 - Claude Code</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">Claude Code 是基于 Claude 模型的编程辅助工具，擅长长代码理解与逻辑分析。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">使用流程</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">这里在 Cursor 举例。</p>
+<img src="/images-wf/ClaudeCode1.png" alt="Claude Code使用" style="border-radius:8px;margin-bottom:1rem;">
+
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">在模型里面选择 Opus 或 Codex 都可以。</p>
 </div>
 
 <div id="section-3-8" class="workflow-section" style="display:none;">
