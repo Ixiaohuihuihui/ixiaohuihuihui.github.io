@@ -2,6 +2,7 @@
 layout: page
 title: "2025.11.30 迎新团建"
 permalink: /activity/20251130-meetup/
+author_profile: false
 ---
 
 # 2025.11.30 迎新团建
