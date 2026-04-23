@@ -217,7 +217,12 @@ author_profile: false
 
 <div id="section-1" class="workflow-section">
 <h2>📌 流程规范</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">本文档旨在为课题组建立一套开源、共享、智能、规则明确的工作流程。</p>
+<ul style="margin-top:1.5rem;font-size:1rem;color:#555;line-height:1.8;">
+<li style="margin-bottom:0.5rem;"><strong>适用对象：</strong> 所有课题组成员</li>
+<li style="margin-bottom:0.5rem;"><strong>更新机制：</strong> 核心流程将跟随平台版本迭代实时更新。</li>
+</ul>
 </div>
 
 <div id="section-2" class="workflow-section" style="display:none;">
