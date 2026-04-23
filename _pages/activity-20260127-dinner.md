@@ -13,7 +13,7 @@ author_profile: false
 <img src="/images/20251130年终总结&年饭1.jpg" alt="活动照片1">
 <img src="/images/20251130年终总结&年饭2.jpg" alt="活动照片2">
 <img src="/images/20251130年终总结&年饭3.jpg" alt="活动照片3">
-<img src="/images/20251130年终总结&年饭3.jpg" alt="活动照片3">
+<img src="/images/20251130年终总结&年饭4.jpg" alt="活动照片3">
 </div>
 
 <style>
