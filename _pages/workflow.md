@@ -8,14 +8,14 @@ author_profile: false
 <style>
 .workflow-wrapper {
     display: flex;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
-    gap: 2rem;
+    padding: 2rem;
+    gap: 3rem;
 }
 
 .workflow-sidebar {
-    width: 220px;
+    width: 200px;
     flex-shrink: 0;
     position: sticky;
     top: 2rem;
@@ -25,26 +25,27 @@ author_profile: false
 .workflow-nav {
     background: #f8f9fa;
     border-radius: 12px;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
 }
 
 .workflow-nav-item {
     display: block;
-    padding: 0.8rem 1.5rem;
-    color: #333;
+    padding: 0.9rem 1.2rem;
+    color: #555;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.2s;
     border-left: 3px solid transparent;
+    font-size: 0.95rem;
 }
 
 .workflow-nav-item:hover {
-    background: #e9ecef;
+    background: #e8f0ff;
     color: #00369f;
 }
 
 .workflow-nav-item.active {
-    background: #e8f0ff;
+    background: linear-gradient(90deg, #e8f0ff 0%, #f0f5ff 100%);
     color: #00369f;
     border-left-color: #00369f;
     font-weight: 600;
@@ -60,20 +61,21 @@ author_profile: false
     border-radius: 12px;
     padding: 2rem;
     margin-bottom: 1.5rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .workflow-section h2 {
     color: #00369f;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid #f5f5f5;
 }
 
 .workflow-section p {
-    color: #555;
-    line-height: 1.7;
+    color: #666;
+    line-height: 1.8;
 }
 
 .sub-item {
@@ -94,10 +96,33 @@ author_profile: false
     color: #00369f;
     text-decoration: none;
     font-weight: 500;
+    font-size: 0.95rem;
 }
 
 .back-link:hover {
     text-decoration: underline;
+}
+
+.workflow-note {
+    background: linear-gradient(135deg, #fff9e6 0%, #fff8dc 100%);
+    border: 1px solid #ffd966;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.workflow-note p {
+    margin: 0;
+    color: #856404;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.workflow-note-icon {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 </style>
 
@@ -157,6 +182,11 @@ author_profile: false
 <h2>🎁 奖励政策</h2>
 <p>（请在此处填写内容）</p>
 </div>
+
+<div class="workflow-note">
+<span class="workflow-note-icon">💡</span>
+<p><b>温馨提示：</b>遇到任何问题欢迎随时与导师或师兄师姐沟通，我们是一个大家庭！</p>
+</div>
 </div>
 </div>
 
@@ -179,7 +209,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<div class="workflow-note">
-<b>温馨提示：</b>遇到任何问题欢迎随时与导师或师兄师姐沟通，我们是一个大家庭！
-</div>
-</div>
