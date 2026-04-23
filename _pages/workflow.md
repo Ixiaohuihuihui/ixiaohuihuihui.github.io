@@ -10,8 +10,8 @@ author_profile: false
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
-    gap: 3rem;
+    padding: 2rem 2rem 2rem 0;
+    gap: 2rem;
 }
 
 .workflow-sidebar {
@@ -20,6 +20,7 @@ author_profile: false
     position: sticky;
     top: 2rem;
     height: fit-content;
+    padding-left: 1rem;
 }
 
 .workflow-nav {
