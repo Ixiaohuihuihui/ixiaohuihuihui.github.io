@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-no-nav
 title: "2026.01.27 年终总结&年饭"
 permalink: /activity/20260127-dinner/
 author_profile: false
