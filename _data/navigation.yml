@@ -20,3 +20,7 @@ main:
 
   - title: "课题组日常"
     url: "/#-ktzrc"
+
+  - title: "课题组WorkFlow"
+    url: "https://page.weixin.qq.com/smartpage/p/b1_Aa8AAAYwAJMbzs1Sr39QSmg6lNF"
+    external: true
