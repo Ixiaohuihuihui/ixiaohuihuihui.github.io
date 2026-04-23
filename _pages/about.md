@@ -216,6 +216,6 @@ redirect_from:
 
 # 📋 课题组WorkFlow
 
-[👉查看详细工作流程👈](/workflow/)
+[👉查看详细WorkFlow👈](/workflow/)
 
 [👉微信版WorkFlow👈](https://page.weixin.qq.com/smartpage/p/b1_Aa8AAAYwAJMbzs1Sr39QSmg6lNF){:target="_blank"}
