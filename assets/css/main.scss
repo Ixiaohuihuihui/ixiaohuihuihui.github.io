@@ -119,8 +119,8 @@ h1:before, .anchor:before {
 
 .member-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
     margin: 2rem 0;
     padding: 0;
     width: 100%;
