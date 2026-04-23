@@ -10,7 +10,10 @@ author_profile: false
 <a href="/#-ktzrc">← 返回课题组日常</a>
 
 <div class="activity-photos">
-<img src="/images/20260331学术沙龙1.jpg" alt="活动照片1">
+<img src="images\20260331学术沙龙1.jpg" alt="活动照片1">
+<img src="images\20260331学术沙龙2.jpg" alt="活动照片2">
+<img src="images\20260331学术沙龙3.jpg" alt="活动照片3">
+<img src="images\20260331学术沙龙4.jpg" alt="活动照片4">
 </div>
 
 <style>
