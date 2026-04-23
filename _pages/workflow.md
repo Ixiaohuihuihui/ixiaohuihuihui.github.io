@@ -623,7 +623,7 @@ author_profile: false
 <p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;"><span style="color:#00369f;">6. 伦理合规性与社会责任</span></p>
 <p style="font-size:1rem;color:#555;line-height:1.9;padding-left:1rem;">- 核查论文使用的数据集、标注数据是否有合规的使用许可、伦理审查批准、受试者知情同意，无隐私泄露、数据侵权等问题；<br>- 客观评估论文提出的方法是否存在潜在的有害应用、算法偏见、公平性问题，是否有对应的伦理声明与风险 mitigation 方案；<br>- 确认无学术不端行为，包括抄袭、一稿多投、重复发表、伪造实验数据、不当署名、虚假引用、过度自引等。</p>
 
-<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">7. 领域影响力与长期价值</p>
+<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;"><span style="color:#00369f;">7. 领域影响力与长期价值</span></p>
 <p style="font-size:1rem;color:#555;line-height:1.9;padding-left:1rem;">- 评估论文工作是否能推动领域的长期发展，是否能为后续研究提供新的研究思路、新的基准、新的方法论；<br>- 确认论文的结论具有普适性，而非仅针对特定数据集、特定场景的特例优化，具备可迁移性与可扩展性。</p>
 </div>
 
