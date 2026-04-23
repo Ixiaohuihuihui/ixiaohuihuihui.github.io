@@ -24,7 +24,7 @@ redirect_from:
 我的研究领域包括：
 - 人工智能
 - 计算机视觉
-
+- 目标检测
 
 
 
@@ -87,6 +87,11 @@ redirect_from:
 <span class='anchor' id='-ryjx'></span>
 
 # 🏅 荣誉奖项
+[1]北京大学三好学生
+
+[2]北京大学优秀科研奖
+
+[3]本科期间获得国家奖学金、校长奖学金（每年全校毕业生仅有10人获得
 
 <span class='anchor' id='-xshy'></span>
 
@@ -103,5 +108,5 @@ redirect_from:
 
 <span class='anchor' id='-gzsx'></span>
 
-# 🧑‍🎓 实验室成员
+# 🧑‍🎓 课题组成员
 
