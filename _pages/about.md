@@ -195,7 +195,11 @@ redirect_from:
 <span class='anchor' id='-ktzrc'></span>
 
 # 🥳 课题组日常
-暂无！
+
+## 2025.11.30 团建活动
+
+![活动照片1](images\20251130迎新团建.jpg)
+
 
 <span class='anchor' id='-ktzwf'></span>
 # 📋 课题组WorkFlow
