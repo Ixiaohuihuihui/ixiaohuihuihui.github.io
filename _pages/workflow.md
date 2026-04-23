@@ -326,7 +326,29 @@ author_profile: false
 
 <div id="section-3-2" class="workflow-section" style="display:none;">
 <h2>📦 软件安装 - Tmux</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">tmux 是终端复用工具，可以在服务器上保持会话不中断（即使断网）。即一般都在tmux窗口进行实验。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">一、安装</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">这里是一个不需要管理员权限的安装方法</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">下载地址（需要外网）：<a href="https://github.com/pythops/tmux-linux-binary/releases" target="_blank">https://github.com/pythops/tmux-linux-binary/releases</a></p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>选择 tmux-linux-x86_64版本（取决于服务器cpu架构）</li>
+<li>下载后上传服务器</li>
+<li>再在命令行输入指令：</li>
+</ul>
+<p style="font-size:1rem;color:#555;margin-top:0.5rem;margin-bottom:0.3rem;">mkdir -p ~/.local/bin</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.3rem;">mv tmux-linux-x86_64 ~/.local/bin/tmux（看tmux-linux-x86_64具体目录）</p>
+<p style="font-size:1rem;color:#555;">即可使用</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">二、使用指令</h3>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>tmux new -s session_name &nbsp;&nbsp;# 新建会话</li>
+<li>tmux attach -t session_name &nbsp;# 重新连接</li>
+<li>tmux ls &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 查看会话</li>
+<li>tmux kill-session -t name &nbsp;# 关闭会话</li>
+</ul>
+<p style="font-size:1rem;color:#555;margin-top:1rem;">更多指令：<a href="https://zhuanlan.zhihu.com/p/90464490" target="_blank">https://zhuanlan.zhihu.com/p/90464490</a></p>
 </div>
 
 <div id="section-3-3" class="workflow-section" style="display:none;">
