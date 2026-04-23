@@ -98,5 +98,5 @@ redirect_from:
 
 <span class='anchor' id='-ktzwf'></span>
 # 📋 课题组WorkFlow
-为方便课题组新人快速、高效的学习和科研。课题组建立了一套开源、共享、智能、规则明确的工作流程。
+为方便课题组新人快速、高效的学习和科研。课题组建立了一套开源、共享、智能、规则明确的工作流程。\
 [课题组WorkFlow](https://page.weixin.qq.com/smartpage/p/b1_Aa8AAAYwAJMbzs1Sr39QSmg6lNF)
