@@ -449,10 +449,10 @@ author_profile: false
 
 <h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">二、使用</h3>
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">VPN设置：选择全局模式+TUN模式（有的VPN是全局模式+虚拟网卡），地区选台湾/新加坡/日本（香港不能），延迟最低的那个。</p>
-<img src="/images-wf/Cursor1.png" alt="VPN设置" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor1.png" alt="VPN设置" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;margin-top:1rem;">启动 Cursor，没充值的情况下只能使用 Auto 模式，就是它自动给你分配模型。充值了（谷歌账号登录+支付宝支付）可以在设置里选择模型。</p>
-<img src="/images-wf/Cursor2.png" alt="模型选择" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor2.png" alt="模型选择" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">带脑子图案的是有推理/思考，效果更好但是费用更高。</p>
 <p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">推荐模型：</p>
@@ -460,20 +460,20 @@ author_profile: false
 <li>Opus 4.5 - 最好用但是很贵</li>
 <li>GPT-5.2 Codex - 性价比最高</li>
 </ul>
-<img src="/images-wf/Cursor3.png" alt="模型说明" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor3.png" alt="模型说明" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;margin-top:1rem;">对话框输入要求，使用 Agent 模式。</p>
-<img src="/images-wf/Cursor4.png" alt="Agent模式" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor4.png" alt="Agent模式" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;margin-top:1rem;">每次打开一个项目，如果代码文件不多，建议在设置中打开 Code Index 功能，回答的效果更好。</p>
-<img src="/images-wf/Cursor5.png" alt="Code Index设置" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor5.png" alt="Code Index设置" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;margin-top:1rem;">Cursor 是按使用的 Token 计费的，输入的要求越多，改动的代码越多，用的 Token 就越多，可在此处查看。</p>
-<img src="/images-wf/Cursor6.png" alt="Token查看" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor6.png" alt="Token查看" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;margin-top:1rem;">如果对改的代码不满意，点击此处回档。</p>
-<img src="/images-wf/Cursor7.png" alt="回档" style="border-radius:8px;margin-bottom:1rem;">
-<img src="/images-wf/Cursor8.png" alt="回档" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor7.png" alt="回档" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/cursor8.png" alt="回档" style="border-radius:8px;margin-bottom:1rem;">
 </div>
 
 <div id="section-3-7" class="workflow-section" style="display:none;">
@@ -483,7 +483,7 @@ author_profile: false
 
 <h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">使用流程</h3>
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">这里在 Cursor 举例。</p>
-<img src="/images-wf/ClaudeCode1.png" alt="Claude Code使用" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/claudecode1.png" alt="Claude Code使用" style="border-radius:8px;margin-bottom:1rem;">
 
 <p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">在模型里面选择 Opus 或 Codex 都可以。</p>
 </div>
