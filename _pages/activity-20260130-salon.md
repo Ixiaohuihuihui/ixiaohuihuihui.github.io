@@ -13,6 +13,8 @@ author_profile: false
 <img src="/images/20261130学术沙龙1.jpg" alt="活动照片1">
 <img src="/images/20261130学术沙龙2.jpg" alt="活动照片2">
 <img src="/images/20261130学术沙龙3.jpg" alt="活动照片3">
+<img src="/images/20261130学术沙龙4.jpg" alt="活动照片4">
+<img src="/images/20261130学术沙龙5.jpg" alt="活动照片5">
 </div>
 
 <style>
