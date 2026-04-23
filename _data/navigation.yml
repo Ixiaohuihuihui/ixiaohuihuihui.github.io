@@ -1,22 +1,22 @@
 # main links links
 main:
   - title: "About Me"
-    url: "/zh-cn/#about-me"
+    url: "/#about-me"
 
   - title: "Call For Members"
-    url: "/zh-cn/#-xl"
+    url: "/#-cfm"
 
   - title: "论文专利"
-    url: "/zh-cn/#-lwzl"
+    url: "/#-lwzl"
 
   - title: "荣誉奖项"
-    url: "/zh-cn/#-ryjx"
+    url: "/#-ryjx"
 
   - title: "科研项目"
-    url: "/zh-cn/#-xshy"
+    url: "/#-kyxm"
 
   - title: "课题组成员"
-    url: "/zh-cn/#-gzsx"
+    url: "/#-ktzcy
 
   - title: "课题组日常"
-    url: "/zh-cn/#-gzsx"
+    url: "/#-ktzrc"
