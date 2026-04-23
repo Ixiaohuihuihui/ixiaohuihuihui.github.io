@@ -93,41 +93,36 @@ redirect_from:
 
 # 🧑‍🎓 课题组成员
 
-<div class="team-grid">
-  <div class="team-card">
-    <div class="team-avatar" style="background-color: #6c757d;">杨晖</div>
-    <div class="team-info">
-      <div class="team-name">杨晖</div>
-      <div class="team-title">研二</div>
-    </div>
+<div class="member-cards">
+  <div class="member-card">
+    <img src="/images/avatar_default.png" class="member-avatar" alt="Hui Yang">
+    <div class="member-name-en">Hui Yang</div>
+    <div class="member-name-cn">杨晖</div>
+    <div class="member-title">研二</div>
   </div>
-  <div class="team-card">
-    <div class="team-avatar" style="background-color: #6c757d;">刘立康</div>
-    <div class="team-info">
-      <div class="team-name">刘立康</div>
-      <div class="team-title">研二</div>
-    </div>
+  <div class="member-card">
+    <img src="/images/avatar_default.png" class="member-avatar" alt="Likang Liu">
+    <div class="member-name-en">Likang Liu</div>
+    <div class="member-name-cn">刘立康</div>
+    <div class="member-title">研二</div>
   </div>
-  <div class="team-card">
-    <div class="team-avatar" style="background-color: #6c757d;">王华彬</div>
-    <div class="team-info">
-      <div class="team-name">王华彬</div>
-      <div class="team-title">研二</div>
-    </div>
+  <div class="member-card">
+    <img src="/images/avatar_default.png" class="member-avatar" alt="Huabin Wang">
+    <div class="member-name-en">Huabin Wang</div>
+    <div class="member-name-cn">王华彬</div>
+    <div class="member-title">研二</div>
   </div>
-  <div class="team-card">
-    <div class="team-avatar" style="background-color: #6c757d;">林中岚</div>
-    <div class="team-info">
-      <div class="team-name">林中岚</div>
-      <div class="team-title">研一</div>
-    </div>
+  <div class="member-card">
+    <img src="/images/avatar_default.png" class="member-avatar" alt="Zhonglan Lin">
+    <div class="member-name-en">Zhonglan Lin</div>
+    <div class="member-name-cn">林中岚</div>
+    <div class="member-title">研一</div>
   </div>
-  <div class="team-card">
-    <div class="team-avatar" style="background-color: #6c757d;">傅欢</div>
-    <div class="team-info">
-      <div class="team-name">傅欢</div>
-      <div class="team-title">研一</div>
-    </div>
+  <div class="member-card">
+    <img src="/images/avatar_default.png" class="member-avatar" alt="Huan Fu">
+    <div class="member-name-en">Huan Fu</div>
+    <div class="member-name-cn">傅欢</div>
+    <div class="member-title">研一</div>
   </div>
 </div>
 
