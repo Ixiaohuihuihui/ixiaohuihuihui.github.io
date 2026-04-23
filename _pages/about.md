@@ -198,34 +198,19 @@ redirect_from:
 
 ## 2026.03.31 学术沙龙
 
-<div class="activity-photos">
-![活动照片1](images/20260331学术沙龙1.jpg)
-![活动照片2](images/20251130学术沙龙2.jpg)
-![活动照片3](images/20251130学术沙龙3.jpg)
-</div>
+[查看活动详情 →](/activity/20260331-salon/)
 
 ## 2026.01.30 学术沙龙
 
-<div class="activity-photos">
-![活动照片1](images/20251130学术沙龙1.jpg)
-![活动照片2](images/20251130学术沙龙2.jpg)
-![活动照片3](images/20251130学术沙龙3.jpg)
-</div>
+[查看活动详情 →](/activity/20260130-salon/)
 
 ## 2026.01.27 年终总结&年饭
 
-<div class="activity-photos">
-![活动照片1](images/20251130年终总结&年饭1.jpg)
-![活动照片2](images/20251130年终总结&年饭2.jpg)
-![活动照片3](images/20251130年终总结&年饭3.jpg)
-</div>
+[查看活动详情 →](/activity/20260127-dinner/)
 
 ## 2025.11.30 迎新团建
-<div class="activity-photos">
-![活动照片1](images\20251130迎新团建1.jpg)
-![活动照片2](images\20251130迎新团建2.jpg)
-![活动照片3](images\20251130迎新团建3.jpg)
-</div>
+
+[查看活动详情 →](/activity/20251130-meetup/)
 
 <span class='anchor' id='-ktzwf'></span>
 # 📋 课题组WorkFlow
