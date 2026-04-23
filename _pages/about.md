@@ -89,7 +89,9 @@ redirect_from:
 
 [5] 国家重点研发计划项目，“﻿手机零部件高速视觉定位、光学检测与不良品识别技术”，参与，2019-2023。
 
-<span class='anchor' id='-gzsx'></span>
+<span class='anchor' id='-ktzcy'></span>
 
 # 🧑‍🎓 课题组成员
 
+<span class='anchor' id='-ktzrc'></span>
+# 🥳 课题组日常
