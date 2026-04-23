@@ -54,6 +54,10 @@ author_profile: false
     font-weight: 600;
 }
 
+.workflow-nav-item.has-sub {
+    justify-content: space-between;
+}
+
 .nav-arrow {
     font-size: 0.7rem;
     transition: transform 0.2s;
@@ -162,11 +166,11 @@ author_profile: false
 <div class="workflow-wrapper">
 <nav class="workflow-sidebar">
 <div class="workflow-nav">
-<div class="workflow-nav-item" onclick="toggleSection('section-1', this)">📌 流程规范<span class="nav-arrow">▼</span></div>
+<div class="workflow-nav-item" onclick="toggleSection('section-1', this)">📌 流程规范</div>
 
-<div class="workflow-nav-item" onclick="toggleSection('section-2', this)">🖥️ 服务器账号领取<span class="nav-arrow">▼</span></div>
+<div class="workflow-nav-item" onclick="toggleSection('section-2', this)">🖥️ 服务器账号领取</div>
 
-<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-3')">📦 软件安装<span class="nav-arrow">▶</span></div>
+<div class="workflow-nav-item has-sub" onclick="toggleSubNav(this, 'sub-3')">📦 软件安装<span class="nav-arrow">▶</span></div>
 <div id="sub-3" class="workflow-sub-nav">
 <div class="workflow-sub-item" onclick="showSection('section-3-1', this)">MobaXterm</div>
 <div class="workflow-sub-item" onclick="showSection('section-3-2', this)">Tmux</div>
@@ -178,7 +182,7 @@ author_profile: false
 <div class="workflow-sub-item" onclick="showSection('section-3-8', this)">好用软件推荐</div>
 </div>
 
-<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-4')">📝 论文写作<span class="nav-arrow">▶</span></div>
+<div class="workflow-nav-item has-sub" onclick="toggleSubNav(this, 'sub-4')">📝 论文写作<span class="nav-arrow">▶</span></div>
 <div id="sub-4" class="workflow-sub-nav">
 <div class="workflow-sub-item" onclick="showSection('section-4-1', this)">想法诞生</div>
 <div class="workflow-sub-item" onclick="showSection('section-4-2', this)">实验对比</div>
@@ -186,25 +190,25 @@ author_profile: false
 <div class="workflow-sub-item" onclick="showSection('section-4-4', this)">Overleaf</div>
 </div>
 
-<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-5')">💡 写论文提示词<span class="nav-arrow">▶</span></div>
+<div class="workflow-nav-item has-sub" onclick="toggleSubNav(this, 'sub-5')">💡 写论文提示词<span class="nav-arrow">▶</span></div>
 <div id="sub-5" class="workflow-sub-nav">
 <div class="workflow-sub-item" onclick="showSection('section-5-1', this)">CVPR等顶会风格的Prompt</div>
 <div class="workflow-sub-item" onclick="showSection('section-5-2', this)">TPAMI等期刊论文的Prompt</div>
 <div class="workflow-sub-item" onclick="showSection('section-5-3', this)">画框架图的Prompt</div>
 </div>
 
-<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-6')">🤖 AI审稿专家的Prompt<span class="nav-arrow">▶</span></div>
+<div class="workflow-nav-item has-sub" onclick="toggleSubNav(this, 'sub-6')">🤖 AI审稿专家的Prompt<span class="nav-arrow">▶</span></div>
 <div id="sub-6" class="workflow-sub-nav">
 <div class="workflow-sub-item" onclick="showSection('section-6-1', this)">AI顶会审稿专家</div>
 <div class="workflow-sub-item" onclick="showSection('section-6-2', this)">AI顶刊审稿专家</div>
 </div>
 
-<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-7')">📨 投稿管理<span class="nav-arrow">▶</span></div>
+<div class="workflow-nav-item has-sub" onclick="toggleSubNav(this, 'sub-7')">📨 投稿管理<span class="nav-arrow">▶</span></div>
 <div id="sub-7" class="workflow-sub-nav">
 <div class="workflow-sub-item" onclick="showSection('section-7-1', this)">投稿流程</div>
 </div>
 
-<div class="workflow-nav-item" onclick="toggleSection('section-8', this)">🎁 奖励政策<span class="nav-arrow">▼</span></div>
+<div class="workflow-nav-item" onclick="toggleSection('section-8', this)">🎁 奖励政策</div>
 </div>
 </nav>
 
@@ -361,20 +365,32 @@ function toggleSection(id, element) {
 function toggleSubNav(element, subNavId) {
     var subNav = document.getElementById(subNavId);
     var arrow = element.querySelector('.nav-arrow');
+    var firstSubItem = subNav.querySelector('.workflow-sub-item');
+
+    // Show the first sub-item's section
+    if (firstSubItem) {
+        var firstSectionId = firstSubItem.getAttribute('onclick').match(/'([^']+)'/)[1];
+        showSection(firstSectionId, firstSubItem);
+    }
 
     if (subNav.classList.contains('show')) {
         subNav.classList.remove('show');
-        arrow.textContent = '▶';
-        arrow.classList.remove('expanded');
+        if (arrow) {
+            arrow.textContent = '▶';
+            arrow.classList.remove('expanded');
+        }
     } else {
         subNav.classList.add('show');
-        arrow.textContent = '▼';
-        arrow.classList.add('expanded');
+        if (arrow) {
+            arrow.textContent = '▼';
+            arrow.classList.add('expanded');
+        }
     }
 
     document.querySelectorAll('.workflow-nav-item').forEach(function(item) {
         item.classList.remove('active');
     });
+    element.classList.add('active');
 }
 
 document.addEventListener('DOMContentLoaded', function() {
