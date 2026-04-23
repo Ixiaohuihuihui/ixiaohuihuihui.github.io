@@ -141,7 +141,7 @@ author_profile: false
 </nav>
 
 <div class="workflow-content">
-<a href="/#-ktzwf" class="back-link">← 返回课题组日常</a>
+<a href="/#-ktzwf" class="back-link">← 返回</a>
 
 <div id="section-1" class="workflow-section">
 <h2>📌 流程规范</h2>
