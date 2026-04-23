@@ -49,8 +49,6 @@ redirect_from:
 
 # 📝 论文专利
 
-### 英文
----
 [1]Linhui Dai, Hong Liu, Pinhao Song, Mengyuan Liu. A gated cross-domain collaborative network for underwater object detection. Pattern Recognition (PR), 2024, 149:110222.（SCI，JCR Q1，IF：8.0）
 
 [2]Linhui Dai, Hong Liu, Hao Tang, Pinhao Song. Ao2-detr: Arbitrary-oriented object detection transformer. IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2022, 33(5): 2342-2356.（SCI，JCR Q1，IF：8.4）
@@ -66,21 +64,6 @@ redirect_from:
 [7]Yang Chen, Pinhao Song, Hong Liu, Linhui Dai, X Zhang, R Ding, S Li. Achieving domain generalization for underwater object detection by domain mixup and contrastive learning. Neurocomputing, 2023, 528: 20-34. (SCI，JCR Q1)
 
 [8]Jian Zhang, Runwei Ding, Miaoju Ban, Linhui Dai. PKU-GoodsAD: A supermarket goods dataset for unsupervised anomaly detection and segmentation. IEEE Robotics and Automation Letters, 2024, 9(3): 2008-2015. (SCI，JCR Q2)
-
-
-
-
-### 中文
----
-
-
-
-### 专利
----
-
-
-
-
 
 
 
