@@ -227,7 +227,75 @@ author_profile: false
 
 <div id="section-2" class="workflow-section" style="display:none;">
 <h2>🖥️ 服务器账号领取</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">本页面用于规范课题组服务器账号的申请、开通、使用与回收流程，帮助新成员快速上手，并保障科研计算资源安全、有序、可追踪地使用。</p>
+<ul style="margin-top:1rem;font-size:1rem;color:#555;line-height:1.8;">
+<li style="margin-bottom:0.5rem;"><strong>适用对象：</strong> 所有课题组成员</li>
+<li style="margin-bottom:0.5rem;"><strong>管理原则：</strong> 实名申请、一人一号、按需开通、统一管理</li>
+</ul>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">一、联系人</h3>
+<ul style="font-size:1rem;color:#555;line-height:1.8;">
+<li>服务器管理员：向健林</li>
+<li>联系方式（WX）：x1114374366</li>
+</ul>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">二、向管理员提交申请</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">请填写服务器账号申请信息，发送给管理员，内容包括：</p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>姓名</li>
+<li>年级</li>
+<li>导师姓名</li>
+<li>研究方向 / 所属课题</li>
+<li>使用目的</li>
+<li>所需显卡个数，需要占用多少显存</li>
+</ul>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">三、账号开通</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">审核通过后，管理员将完成账号创建，并告知：</p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>登录IP地址</li>
+<li>登录方式</li>
+<li>初始账号信息</li>
+<li>首次登录注意事项</li>
+<li>相关目录与环境说明</li>
+</ul>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">四、使用规范</h3>
+<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">账号安全</p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>不得转借账号</li>
+<li>不得泄露密码</li>
+<li>发现异常登录请及时联系管理员</li>
+</ul>
+<p style="font-size:1rem;color:#555;font-weight:600;margin-top:1rem;margin-bottom:0.5rem;">资源使用</p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>共享资源请按需使用</li>
+<li>禁止无意义占卡、空跑、重复提交异常任务</li>
+<li>任务结束后及时释放资源</li>
+</ul>
+<p style="font-size:1rem;color:#555;font-weight:600;margin-top:1rem;margin-bottom:0.5rem;">数据与环境</p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>个人数据存放在个人目录</li>
+<li>公共资源存放在指定共享位置</li>
+<li>不覆盖公共文件</li>
+<li>不擅自修改公共环境和系统配置</li>
+</ul>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">五、账号回收</h3>
+<p style="font-size:1rem;color:#555;line-height:1.8;">以下情形将触发账号回收：</p>
+<ul style="font-size:1rem;color:#555;line-height:1.8;padding-left:1.5rem;">
+<li>毕业离组</li>
+<li>违反使用规定</li>
+</ul>
+<p style="font-size:1rem;color:#555;line-height:1.8;margin-top:1rem;">回收前请自行完成数据整理与必要备份，课题组仅保留管理所需信息，不对个人未备份数据负责。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">六、常见问题</h3>
+<ul style="font-size:1rem;color:#555;line-height:1.9;padding-left:1.5rem;">
+<li><strong>忘记密码怎么办？</strong> 联系管理员重置。</li>
+<li><strong>资源不够怎么办？</strong> 联系管理员说明任务需求与预计时长，统一协调。</li>
+<li><strong>可以自己安装软件吗？</strong> 个人环境可以，公共环境或系统级变更需提前沟通。</li>
+</ul>
 </div>
 
 <div id="section-3-1" class="workflow-section" style="display:none;">
