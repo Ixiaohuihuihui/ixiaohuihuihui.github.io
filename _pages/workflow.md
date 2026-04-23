@@ -300,7 +300,28 @@ author_profile: false
 
 <div id="section-3-1" class="workflow-section" style="display:none;">
 <h2>📦 软件安装 - MobaXterm</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">MobaXterm 是一款集成化远程连接工具，支持 SSH、SFTP、X11 等协议，广泛用于连接服务器（如实验室 GPU 服务器）。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">一、下载</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">下载地址：<a href="https://mobaxterm.mobatek.net/download-home-edition.html" target="_blank">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">下载解压后进行安装：</p>
+<img src="/images-wf/MobaXtem1.png" alt="MobaXterm安装步骤" style="max-width:100%;border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">点击next，修改路径后点击next，install即可</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">二、连接服务器</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">申请服务器账号成功后可以在mobaxterm登录</p>
+<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">步骤：打开mobaxterm</p>
+<img src="/images-wf/MobaXtem2.png" alt="步骤1" style="max-width:100%;border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">点击左上角Session</p>
+<img src="/images-wf/MobaXtem3.png" alt="步骤2" style="max-width:100%;border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">在这里填写自己的服务器地址和用户名，其中Remote host为服务器ip，Specify username为用户名。例如</p>
+<img src="/images-wf/MobaXtem4.png" alt="步骤3" style="max-width:100%;border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">点击ok</p>
+<img src="/images-wf/MobaXtem5.png" alt="步骤4" style="max-width:100%;border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;font-weight:600;margin-bottom:0.5rem;">点击Accept</p>
+<img src="/images-wf/MobaXtem6.png" alt="步骤5" style="max-width:100%;border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;">输入你的密码后回车（注意，这里界面不会显示你的输入）</p>
 </div>
 
 <div id="section-3-2" class="workflow-section" style="display:none;">
