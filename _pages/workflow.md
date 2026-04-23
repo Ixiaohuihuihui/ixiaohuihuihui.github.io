@@ -358,7 +358,51 @@ author_profile: false
 
 <div id="section-3-4" class="workflow-section" style="display:none;">
 <h2>📦 软件安装 - PyCharm</h2>
-<p>（请在此处填写内容）</p>
+<h3 style="color:#00369f;font-size:1.1rem;margin-bottom:1rem;">说明</h3>
+<p style="font-size:1.05rem;line-height:1.9;">PyCharm 是 Python 集成开发环境（IDE），适合本地代码开发与调试。</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">一、下载</h3>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">pycharm下载地址：<a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">https://www.jetbrains.com/pycharm/download/?section=windows</a></p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">下载后点击安装包点击下一步：选择你安装的路径，这里我设置了D盘</p>
+<img src="/images-wf/Pycharm1.png" alt="安装步骤1" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">点击下一步：这里全部勾选上</p>
+<img src="/images-wf/Pycharm2.png" alt="安装步骤2" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/Pycharm3.png" alt="安装步骤3" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">直接点击安装，等待一小会</p>
+<img src="/images-wf/Pycharm4.png" alt="安装步骤4" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">点击完成即可</p>
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">因为pycharm专业版需要付费使用，但是可以使用咱们学校给我们注册的邮箱来获得免费的一年使用权，过期了可以续订，具体流程参考如下：<a href="https://zhuanlan.zhihu.com/p/555346721" target="_blank">https://zhuanlan.zhihu.com/p/555346721</a></p>
+<p style="font-size:1rem;color:#555;">认证完后用你的用户名和密码登录即可正常使用pycharm</p>
+
+<h3 style="color:#00369f;font-size:1.05rem;margin-top:1.5rem;margin-bottom:0.8rem;">二、Pycharm远程连接服务器账号</h3>
+<p style="font-size:1rem;color:#555;font-style:italic;margin-bottom:1rem;">说明：这个操作可以同步主机和服务器的文件，即操作成功后可直接在pycharm改代码以及用终端跑实验（前提是在服务器上安装好环境）</p>
+
+<h4 style="color:#555;font-size:1rem;margin-top:1.2rem;margin-bottom:0.8rem;">2.1 配置python解释器</h4>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">首先用pycharm打开一个项目点击左上角菜单，点击设置</p>
+<img src="/images-wf/Pycharm5.png" alt="配置步骤1" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">点击左上角菜单，点击设置</p>
+<img src="/images-wf/Pycharm6.png" alt="配置步骤2" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">选择python解释器：</p>
+<img src="/images-wf/Pycharm7.png" alt="配置步骤3" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">选择添加解释器，选择on ssh</p>
+<img src="/images-wf/Pycharm8.png" alt="配置步骤4" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">选择New</p>
+<img src="/images-wf/Pycharm9.png" alt="配置步骤5" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/Pycharm10.png" alt="配置步骤6" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">这里Host填写服务器ip，Username填写你的用户名，点击Next，填写密码</p>
+<img src="/images-wf/Pycharm11.png" alt="配置步骤7" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">点击两次next后，选择环境以及同步的文件（注意，这里的同步文件是需要提前把这个项目文件传到服务器上去的，直接拖拽文件至服务器目录即可上传）</p>
+<img src="/images-wf/Pycharm12.png" alt="配置步骤8" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">选择你的虚拟环境，需要同步的文件夹</p>
+<img src="/images-wf/Pycharm13.png" alt="配置步骤9" style="border-radius:8px;margin-bottom:1rem;">
+<img src="/images-wf/Pycharm14.png" alt="配置步骤10" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">点击右边文件图标，左边是你的本地文件，右边是服务器文件</p>
+<img src="/images-wf/Pycharm15.png" alt="配置步骤11" style="border-radius:8px;margin-bottom:1rem;">
+<p style="font-size:1rem;color:#555;margin-bottom:0.8rem;">选择好后点击OK，点击Create，再点击ok</p>
+
+<h4 style="color:#555;font-size:1rem;margin-top:1.2rem;margin-bottom:0.8rem;">三、代码同步</h4>
+<p style="font-size:1rem;color:#555;margin-bottom:0.5rem;">点击菜单→Tools→Deployment→Options，选择CTRL+S保存同步文件</p>
+<img src="/images-wf/Pycharm16.png" alt="代码同步" style="border-radius:8px;margin-bottom:1rem;">
 </div>
 
 <div id="section-3-5" class="workflow-section" style="display:none;">
