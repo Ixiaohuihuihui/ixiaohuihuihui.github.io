@@ -178,3 +178,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.workflow-nav-item').click();
 });
 </script>
+
+<div class="workflow-note">
+<b>温馨提示：</b>遇到任何问题欢迎随时与导师或师兄师姐沟通，我们是一个大家庭！
+</div>
+</div>
