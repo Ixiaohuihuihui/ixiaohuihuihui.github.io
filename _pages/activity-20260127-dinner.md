@@ -10,10 +10,10 @@ author_profile: false
 <a href="/#-ktzrc">← 返回课题组日常</a>
 
 <div class="activity-photos">
-<img src="/images/20251130年终总结&年饭1.jpg" alt="活动照片1">
-<img src="/images/20251130年终总结&年饭2.jpg" alt="活动照片2">
-<img src="/images/20251130年终总结&年饭3.jpg" alt="活动照片3">
-<img src="/images/20251130年终总结&年饭4.jpg" alt="活动照片3">
+<img src="images\2026.01.27 年终总结&年饭1.jpg" alt="活动照片1">
+<img src="images\2026.01.27 年终总结&年饭2.jpg" alt="活动照片2">
+<img src="images\2026.01.27 年终总结&年饭3.jpg" alt="活动照片3">
+<img src="images\2026.01.27 年终总结&年饭4.jpg" alt="活动照片4">
 </div>
 
 <style>
