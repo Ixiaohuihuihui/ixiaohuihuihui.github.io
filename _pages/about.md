@@ -213,6 +213,9 @@ redirect_from:
 [查看活动详情 →](/activity/20251130-meetup/)
 
 <span class='anchor' id='-ktzwf'></span>
+
 # 📋 课题组WorkFlow
-为方便课题组新人快速、高效的学习和科研。课题组建立了一套开源、共享、智能、规则明确的工作流程。\
-[<u>课题组WorkFlow</u>](https://page.weixin.qq.com/smartpage/p/b1_Aa8AAAYwAJMbzs1Sr39QSmg6lNF){:target="_blank"}
+
+[查看详细工作流程 →](/workflow/)
+
+[<u>微信版WorkFlow</u>](https://page.weixin.qq.com/smartpage/p/b1_Aa8AAAYwAJMbzs1Sr39QSmg6lNF){:target="_blank"}
