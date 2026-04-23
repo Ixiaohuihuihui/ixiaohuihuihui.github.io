@@ -15,7 +15,7 @@ author_profile: false
 }
 
 .workflow-sidebar {
-    width: 200px;
+    width: 220px;
     flex-shrink: 0;
     position: sticky;
     top: 2rem;
@@ -26,12 +26,14 @@ author_profile: false
 .workflow-nav {
     background: #f8f9fa;
     border-radius: 12px;
-    padding: 0.8rem 0;
+    padding: 0.6rem 0;
 }
 
 .workflow-nav-item {
-    display: block;
-    padding: 0.9rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.2rem;
     color: #555;
     text-decoration: none;
     cursor: pointer;
@@ -47,6 +49,48 @@ author_profile: false
 
 .workflow-nav-item.active {
     background: linear-gradient(90deg, #e8f0ff 0%, #f0f5ff 100%);
+    color: #00369f;
+    border-left-color: #00369f;
+    font-weight: 600;
+}
+
+.nav-arrow {
+    font-size: 0.7rem;
+    transition: transform 0.2s;
+    margin-left: 0.5rem;
+}
+
+.nav-arrow.expanded {
+    transform: rotate(180deg);
+}
+
+.workflow-sub-nav {
+    display: none;
+    padding-left: 1.5rem;
+    background: #f0f4f8;
+}
+
+.workflow-sub-nav.show {
+    display: block;
+}
+
+.workflow-sub-item {
+    display: block;
+    padding: 0.7rem 1.2rem;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    border-left: 2px solid transparent;
+}
+
+.workflow-sub-item:hover {
+    color: #00369f;
+    background: #e8f0ff;
+}
+
+.workflow-sub-item.active {
     color: #00369f;
     border-left-color: #00369f;
     font-weight: 600;
@@ -77,18 +121,6 @@ author_profile: false
 .workflow-section p {
     color: #666;
     line-height: 1.8;
-}
-
-.sub-item {
-    padding: 0.5rem 1rem;
-    margin-left: 1rem;
-    color: #666;
-    cursor: pointer;
-    font-size: 0.9rem;
-}
-
-.sub-item:hover {
-    color: #00369f;
 }
 
 .back-link {
@@ -130,14 +162,49 @@ author_profile: false
 <div class="workflow-wrapper">
 <nav class="workflow-sidebar">
 <div class="workflow-nav">
-<a class="workflow-nav-item" href="#section-1" onclick="showSection('section-1', this)">📌 流程规范</a>
-<a class="workflow-nav-item" href="#section-2" onclick="showSection('section-2', this)">🖥️ 服务器账号领取</a>
-<a class="workflow-nav-item" href="#section-3" onclick="showSection('section-3', this)">📦 软件安装</a>
-<a class="workflow-nav-item" href="#section-4" onclick="showSection('section-4', this)">📝 论文写作</a>
-<a class="workflow-nav-item" href="#section-5" onclick="showSection('section-5', this)">💡 写论文提示词</a>
-<a class="workflow-nav-item" href="#section-6" onclick="showSection('section-6', this)">🤖 AI审稿专家的Prompt</a>
-<a class="workflow-nav-item" href="#section-7" onclick="showSection('section-7', this)">📨 投稿管理</a>
-<a class="workflow-nav-item" href="#section-8" onclick="showSection('section-8', this)">🎁 奖励政策</a>
+<div class="workflow-nav-item" onclick="toggleSection('section-1', this)">📌 流程规范<span class="nav-arrow">▼</span></div>
+
+<div class="workflow-nav-item" onclick="toggleSection('section-2', this)">🖥️ 服务器账号领取<span class="nav-arrow">▼</span></div>
+
+<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-3')">📦 软件安装<span class="nav-arrow">▶</span></div>
+<div id="sub-3" class="workflow-sub-nav">
+<div class="workflow-sub-item" onclick="showSection('section-3-1', this)">MobaXterm</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-2', this)">Tmux</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-3', this)">Oh-my-zsh</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-4', this)">PyCharm</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-5', this)">Anaconda</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-6', this)">Cursor</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-7', this)">Claude Code</div>
+<div class="workflow-sub-item" onclick="showSection('section-3-8', this)">好用软件推荐</div>
+</div>
+
+<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-4')">📝 论文写作<span class="nav-arrow">▶</span></div>
+<div id="sub-4" class="workflow-sub-nav">
+<div class="workflow-sub-item" onclick="showSection('section-4-1', this)">想法诞生</div>
+<div class="workflow-sub-item" onclick="showSection('section-4-2', this)">实验对比</div>
+<div class="workflow-sub-item" onclick="showSection('section-4-3', this)">中文稿件</div>
+<div class="workflow-sub-item" onclick="showSection('section-4-4', this)">Overleaf</div>
+</div>
+
+<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-5')">💡 写论文提示词<span class="nav-arrow">▶</span></div>
+<div id="sub-5" class="workflow-sub-nav">
+<div class="workflow-sub-item" onclick="showSection('section-5-1', this)">CVPR等顶会风格的Prompt</div>
+<div class="workflow-sub-item" onclick="showSection('section-5-2', this)">TPAMI等期刊论文的Prompt</div>
+<div class="workflow-sub-item" onclick="showSection('section-5-3', this)">画框架图的Prompt</div>
+</div>
+
+<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-6')">🤖 AI审稿专家的Prompt<span class="nav-arrow">▶</span></div>
+<div id="sub-6" class="workflow-sub-nav">
+<div class="workflow-sub-item" onclick="showSection('section-6-1', this)">AI顶会审稿专家</div>
+<div class="workflow-sub-item" onclick="showSection('section-6-2', this)">AI顶刊审稿专家</div>
+</div>
+
+<div class="workflow-nav-item" onclick="toggleSubNav(this, 'sub-7')">📨 投稿管理<span class="nav-arrow">▶</span></div>
+<div id="sub-7" class="workflow-sub-nav">
+<div class="workflow-sub-item" onclick="showSection('section-7-1', this)">投稿流程</div>
+</div>
+
+<div class="workflow-nav-item" onclick="toggleSection('section-8', this)">🎁 奖励政策<span class="nav-arrow">▼</span></div>
 </div>
 </nav>
 
@@ -154,28 +221,93 @@ author_profile: false
 <p>（请在此处填写内容）</p>
 </div>
 
-<div id="section-3" class="workflow-section" style="display:none;">
-<h2>📦 软件安装</h2>
+<div id="section-3-1" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - MobaXterm</h2>
 <p>（请在此处填写内容）</p>
 </div>
 
-<div id="section-4" class="workflow-section" style="display:none;">
-<h2>📝 论文写作</h2>
+<div id="section-3-2" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - Tmux</h2>
 <p>（请在此处填写内容）</p>
 </div>
 
-<div id="section-5" class="workflow-section" style="display:none;">
-<h2>💡 写论文提示词</h2>
+<div id="section-3-3" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - Oh-my-zsh</h2>
 <p>（请在此处填写内容）</p>
 </div>
 
-<div id="section-6" class="workflow-section" style="display:none;">
-<h2>🤖 AI审稿专家的Prompt</h2>
+<div id="section-3-4" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - PyCharm</h2>
 <p>（请在此处填写内容）</p>
 </div>
 
-<div id="section-7" class="workflow-section" style="display:none;">
-<h2>📨 投稿管理</h2>
+<div id="section-3-5" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - Anaconda</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-3-6" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - Cursor</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-3-7" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - Claude Code</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-3-8" class="workflow-section" style="display:none;">
+<h2>📦 软件安装 - 好用软件推荐</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-4-1" class="workflow-section" style="display:none;">
+<h2>📝 论文写作 - 想法诞生</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-4-2" class="workflow-section" style="display:none;">
+<h2>📝 论文写作 - 实验对比</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-4-3" class="workflow-section" style="display:none;">
+<h2>📝 论文写作 - 中文稿件</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-4-4" class="workflow-section" style="display:none;">
+<h2>📝 论文写作 - Overleaf</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-5-1" class="workflow-section" style="display:none;">
+<h2>💡 写论文提示词 - CVPR等顶会风格</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-5-2" class="workflow-section" style="display:none;">
+<h2>💡 写论文提示词 - TPAMI等期刊论文</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-5-3" class="workflow-section" style="display:none;">
+<h2>💡 写论文提示词 - 画框架图的Prompt</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-6-1" class="workflow-section" style="display:none;">
+<h2>🤖 AI审稿专家 - AI顶会审稿专家</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-6-2" class="workflow-section" style="display:none;">
+<h2>🤖 AI审稿专家 - AI顶刊审稿专家</h2>
+<p>（请在此处填写内容）</p>
+</div>
+
+<div id="section-7-1" class="workflow-section" style="display:none;">
+<h2>📨 投稿管理 - 投稿流程</h2>
 <p>（请在此处填写内容）</p>
 </div>
 
@@ -198,15 +330,54 @@ function showSection(id, element) {
     });
     document.getElementById(id).style.display = 'block';
 
-    document.querySelectorAll('.workflow-nav-item').forEach(function(item) {
+    document.querySelectorAll('.workflow-nav-item, .workflow-sub-item').forEach(function(item) {
         item.classList.remove('active');
     });
     element.classList.add('active');
 }
 
-// Show first section by default
+function toggleSection(id, element) {
+    document.querySelectorAll('.workflow-section').forEach(function(section) {
+        section.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+
+    document.querySelectorAll('.workflow-nav-item').forEach(function(item) {
+        item.classList.remove('active');
+    });
+    element.classList.add('active');
+
+    document.querySelectorAll('.workflow-sub-nav').forEach(function(sub) {
+        sub.classList.remove('show');
+    });
+    document.querySelectorAll('.nav-arrow').forEach(function(arrow) {
+        arrow.classList.remove('expanded');
+        if (arrow.textContent === '▼') {
+            arrow.textContent = '▶';
+        }
+    });
+}
+
+function toggleSubNav(element, subNavId) {
+    var subNav = document.getElementById(subNavId);
+    var arrow = element.querySelector('.nav-arrow');
+
+    if (subNav.classList.contains('show')) {
+        subNav.classList.remove('show');
+        arrow.textContent = '▶';
+        arrow.classList.remove('expanded');
+    } else {
+        subNav.classList.add('show');
+        arrow.textContent = '▼';
+        arrow.classList.add('expanded');
+    }
+
+    document.querySelectorAll('.workflow-nav-item').forEach(function(item) {
+        item.classList.remove('active');
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.workflow-nav-item').click();
 });
 </script>
-
